@@ -1,6 +1,5 @@
-'''This is a simple example application using kivyMD, using the requests API
-    with response to currency quote, with text input and click on the action button
-    Creditis Stewart Andrade Developer Phyton.
+'''This is a simple example application created by me using kivyMD, using the requests API
+with response to currency quote, with text input and click action button.
 '''
 import requests
 from kivy.uix.image import Image
