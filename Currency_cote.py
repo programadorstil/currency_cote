@@ -26,7 +26,7 @@ class CurrencyApp(MDApp):
 
         #
         self.greeting = MDLabel(
-            text="Enter which currency you want to see the quote\n\nOptions EUR,USD or BTC",
+            text="Enter which currency you want to see the quote\n\nOptions EUR,USD or BTC for BRL",
             font_size=18,
             color='#00FFCE'
         )
@@ -72,11 +72,11 @@ class CurrencyApp(MDApp):
 
 
         if txt == "usd" or txt == "USD":
-            self.greeting.text = " A cotacão atual de  " + txt + " é  R$ "+ cotacao_dolar
+            self.greeting.text = " The current quotation of  " + txt + " is  R$ "+ cotacao_dolar
         elif txt == "eur" or txt == "EUR":
-            self.greeting.text = " A cotacão atual do  " + txt + " é  R$ "+ cotacao_euro
+            self.greeting.text = " The current quotation of  " + txt + " is  R$ "+ cotacao_euro
         elif txt == "btc" or txt == "BTC":
-            self.greeting.text = " A cotacão atual de  " + txt + " é  R$ "+ cotacao_btc
+            self.greeting.text = " The current quotation of  " + txt + " is  R$ "+ cotacao_btc
         else:
             print("opcao invalida")
             self.dialog = MDDialog(text = "Invalid option! try writing USD,EUR or BTC")

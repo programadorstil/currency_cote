@@ -12,7 +12,18 @@ requirements.txt (read)
 #installation:
 after you have installed python 3.10, go to the terminal and run the command
 
-  pip install -r requirements.txt
+1.open the files folder in the editor of your choice, in my case, I used pycharm
+    
+    
+2.In the folder where your files are located, open the prompt and activate the virtual environment:
+
+    ./venv/scripts/activate
+After that, (venv) should appear before the drive letter, 
+it symbolizes that your virtual environment is active
+
+Now,install requeriments
+
+    pip install -r requirements.txt
 
 ----------------------------------------------------------------
 
@@ -29,6 +40,17 @@ Para ver todas as bibliotecas utilizadas no projeto, acesse
 requirements.txt (leitura)
 -------------------------------------------------- --------------
 #instalação:
-depois de instalar o python 3.10, vá para o terminal e execute o comando
+depois de instalar o python 3.10, vá ao terminal e execute o comando
 
-  pip install -r requirements.txt
+1.abra a pasta de arquivos no editor de sua preferência, no meu caso usei pycharm
+    
+    
+2.Na pasta onde estão seus arquivos, abra o prompt e ative o ambiente virtual,digitando:
+
+    ./venv/scripts/ativate
+Depois disso, (venv) deverá aparecer antes da letra da unidade,
+simboliza que seu ambiente virtual está ativo
+
+Agora, instale os requisitos,digitando:
+
+    pip install -r requirements.txt
