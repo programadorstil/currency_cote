@@ -5,6 +5,8 @@ with response to currency quote,for windows and linux, with text input and click
 ----------------------------------------------------------------
 Used programs:
 - Python 3.10
+- Kivy 2.1
+- KivyMD
 
 To see all libraries used in the project, access
 requirements.txt (read)
@@ -35,7 +37,8 @@ Este é um aplicativo de exemplo simples criado por mim usando kivyMD, usando a 
 -------------------------------------------------- --------------
 Programas usados:
 - Python 3.10
-
+- Kivy 2.1
+- KivyMD
 Para ver todas as bibliotecas utilizadas no projeto, acesse
 requirements.txt (leitura)
 -------------------------------------------------- --------------
